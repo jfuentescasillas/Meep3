@@ -1,0 +1,6 @@
+framework module Pods_Meep3 {
+  umbrella header "Pods-Meep3-umbrella.h"
+
+  export *
+  module * { export * }
+}
