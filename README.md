@@ -15,16 +15,6 @@ Obtener los recursos (moto, bicis, paradas de bus, metro, ...) disponibles dado 
 · Extra: si el usuario se mueve por el mapa, refrescar los puntos
 
 
-
-## Compile instructions (Xcode version, used flags...)
-
-* Xcode verision used: Version 11.4.1 (11E503a)
-* Just select your device or iOS/iPad OS emulator and test the app  
-* Architecture implemented: Model-View-Controller or MVC pattern for app development
-* The files in the Project Navigator are divided in Model, View and Controllers folders, where you can find the files for each section respectively
-
-
-
 ## ¿Qué Hace la App?
 
 La app detecta la ubicación del usuario y muestra los servicios de transporte disponibles en el marco otorgado por la API. Se muestran los marcadores con diferentes colores dependiendo del código del ZoneID, (es decir, si hay 6 zoneIDs, se asignará a cada zoneID un color al azar, y todos los marcadores que contengan ese zoneID se mostrarán del mismo color en el mapa). 
